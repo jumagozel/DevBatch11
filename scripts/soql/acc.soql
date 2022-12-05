@@ -1,0 +1,7 @@
+SELECT id, name from Account 
+
+Select id, name, createdDate from account order by createddate desc limit 3 
+
+Select id, name, phone from account where phone != null
+
+SELECT Name, Id, phone,accountnumber, active__c, shippingcity from account where phone != null and accountnumber != null 
